@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: c7004c20c0e42704ab343cc40c0bafe0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8487833250950569342
+    second: bossShip_0
+  - first:
+      213: 8135039258296014527
+    second: bossShip_1
+  - first:
+      213: -3410596674807793781
+    second: bossShip_2
+  - first:
+      213: 7617034455601373848
+    second: bossShip_3
+  - first:
+      213: -7868890968022230369
+    second: bossShip_4
+  - first:
+      213: -4556718545548133900
+    second: bossShip_5
+  - first:
+      213: -5034951921990161448
+    second: bossShip_6
+  - first:
+      213: 1013091453846653310
+    second: bossShip_7
+  - first:
+      213: 681842015365788649
+    second: bossShip_8
+  - first:
+      213: -4726942761176762235
+    second: bossShip_9
+  - first:
+      213: -8136797384841041940
+    second: bossShip_10
+  - first:
+      213: -3923147174801514355
+    second: bossShip_11
+  - first:
+      213: 1280014030743715423
+    second: bossShip_12
+  - first:
+      213: 5484546106859270923
+    second: bossShip_13
+  - first:
+      213: 4404197569845560496
+    second: bossShip_14
+  - first:
+      213: 7280423091678805317
+    second: bossShip_15
+  - first:
+      213: 8708266934226999769
+    second: bossShip_16
+  - first:
+      213: 1570067049045234457
+    second: bossShip_17
+  - first:
+      213: 3792662894960238342
+    second: bossShip_18
+  - first:
+      213: -4072841250942237531
+    second: bossShip_19
+  - first:
+      213: 1251839581975994023
+    second: bossShip_20
+  - first:
+      213: 3861299929850624025
+    second: bossShip_21
+  - first:
+      213: 6223957132516787200
+    second: bossShip_22
+  - first:
+      213: 8484519895649795319
+    second: bossShip_23
+  - first:
+      213: 4577820944584412221
+    second: bossShip_24
+  - first:
+      213: 5617236321906594306
+    second: bossShip_25
+  - first:
+      213: 124977069533862627
+    second: bossShip_26
+  - first:
+      213: 6171153826772789353
+    second: bossShip_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aoeSize_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 34
+        width: 184
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0059c82b55f186b0800000000000000
+      internalID: -5295681914935881718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aoeSize_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 145
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2294deeb4b710a60800000000000000
+      internalID: 7638522009056743982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aoeSize_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 145
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3b2f24a78e459d0800000000000000
+      internalID: -2786346657628638303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aoeSize_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 44
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2844100b9a43de9b0800000000000000
+      internalID: -5049321703805467518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aoeSize_4
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 44
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4083bf3f6f46810800000000000000
+      internalID: 1757801282333574375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      aoeSize_0: -5295681914935881718
+      aoeSize_1: 7638522009056743982
+      aoeSize_2: -2786346657628638303
+      aoeSize_3: -5049321703805467518
+      aoeSize_4: 1757801282333574375
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
