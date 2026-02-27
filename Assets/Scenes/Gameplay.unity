@@ -219,6 +219,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -707,6 +708,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &531456847
 MeshFilter:
@@ -1245,6 +1247,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1395,6 +1398,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1924,6 +1928,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2338,6 +2343,26 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1796154189793683294, guid: c9847a1dfde2117488d6d9c002d2254c, type: 3}
+      propertyPath: weapons.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1796154189793683294, guid: c9847a1dfde2117488d6d9c002d2254c, type: 3}
+      propertyPath: weapons.Array.data[0].data
+      value: 
+      objectReference: {fileID: 11400000, guid: e075618948304b846b2ee9c7170d306f, type: 2}
+    - target: {fileID: 1796154189793683294, guid: c9847a1dfde2117488d6d9c002d2254c, type: 3}
+      propertyPath: weapons.Array.data[1].data
+      value: 
+      objectReference: {fileID: 11400000, guid: c63de9ee942bbe94084edb8e088c58fe, type: 2}
+    - target: {fileID: 1796154189793683294, guid: c9847a1dfde2117488d6d9c002d2254c, type: 3}
+      propertyPath: weapons.Array.data[0].level
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1796154189793683294, guid: c9847a1dfde2117488d6d9c002d2254c, type: 3}
+      propertyPath: weapons.Array.data[1].level
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1796154189793683294, guid: c9847a1dfde2117488d6d9c002d2254c, type: 3}
       propertyPath: weaponLoadout.Array.data[0].data
       value: 
       objectReference: {fileID: 11400000, guid: e075618948304b846b2ee9c7170d306f, type: 2}
@@ -2407,16 +2432,16 @@ PrefabInstance:
       objectReference: {fileID: 943737349}
     - target: {fileID: 5267633204277230823, guid: c9847a1dfde2117488d6d9c002d2254c, type: 3}
       propertyPath: availableWeapons.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5267633204277230823, guid: c9847a1dfde2117488d6d9c002d2254c, type: 3}
       propertyPath: 'availableWeapons.Array.data[0]'
       value: 
-      objectReference: {fileID: 11400000, guid: f773506823c92704086ed44a7ecb7505, type: 2}
+      objectReference: {fileID: 11400000, guid: e075618948304b846b2ee9c7170d306f, type: 2}
     - target: {fileID: 5267633204277230823, guid: c9847a1dfde2117488d6d9c002d2254c, type: 3}
       propertyPath: 'availableWeapons.Array.data[1]'
       value: 
-      objectReference: {fileID: 11400000, guid: 34a205b7808a7664fbd1ee64593e6706, type: 2}
+      objectReference: {fileID: 11400000, guid: c63de9ee942bbe94084edb8e088c58fe, type: 2}
     - target: {fileID: 5267633204277230823, guid: c9847a1dfde2117488d6d9c002d2254c, type: 3}
       propertyPath: 'availableWeapons.Array.data[2]'
       value: 

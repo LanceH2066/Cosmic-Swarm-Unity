@@ -144,38 +144,48 @@ public class PlayerStats : MonoBehaviour
             if (!weaponLevels.ContainsKey(option.weapon))
             {
                 weaponLevels[option.weapon] = 0;
-                // Add to loadout if not already
                 GetComponent<WeaponController>().AddWeapon(option.weapon);
             }
+
             weaponLevels[option.weapon]++;
-            // Cap at 5 levels
             if (weaponLevels[option.weapon] > 5) weaponLevels[option.weapon] = 5;
         }
         else
         {
             passiveLevels[option.passive]++;
-            // Cap at 3 levels
             if (passiveLevels[option.passive] > 3) passiveLevels[option.passive] = 3;
 
-            // Apply passive effect
-            float bonus = 0.1f * passiveLevels[option.passive]; // 10% per level
-            switch (option.passive)
-            {
-                case PassiveType.Damage:
-                    damageMultiplier += bonus;
-                    break;
-                case PassiveType.FireRate:
-                    fireRateMultiplier += bonus;
-                    break;
-                case PassiveType.Health:
-                    healthMultiplier += bonus;
-                    maxHP *= (1 + bonus);
-                    healthBar.SetMaxHealth(maxHP);
-                    break;
-                case PassiveType.Speed:
-                    speedMultiplier += bonus;
-                    break;
-            }
+            RecalculatePassives();
         }
     }
+
+    private void RecalculatePassives()
+    {
+        // Reset to base values
+        damageMultiplier = 1f;
+        fireRateMultiplier = 1f;
+        speedMultiplier = 1f;
+        healthMultiplier = 1f;
+        aoeSizeMultiplier = 1f;
+
+        // Damage
+        damageMultiplier = 1f + 0.1f * passiveLevels[PassiveType.Damage];
+
+        // Fire rate
+        fireRateMultiplier = 1f + 0.1f * passiveLevels[PassiveType.FireRate];
+
+        // Speed
+        speedMultiplier = 1f + 0.1f * passiveLevels[PassiveType.Speed];
+
+        // Health
+        healthMultiplier = 1f + 0.1f * passiveLevels[PassiveType.Health];
+
+        float newMaxHP = 100f * healthMultiplier;
+        maxHP = newMaxHP;
+        currentHP = Mathf.Min(currentHP, maxHP);
+        healthBar.SetMaxHealth(maxHP);
+        healthBar.SetHealth(currentHP);
+    }
+
+
 }

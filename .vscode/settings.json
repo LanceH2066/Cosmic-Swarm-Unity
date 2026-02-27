@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Cosmic Swarm.slnx"
+    "dotnet.defaultSolution": "Cosmic-Swarm-Unity.slnx"
 }
